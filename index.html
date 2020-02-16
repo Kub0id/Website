@@ -13,9 +13,9 @@
 
 <nav class="navbar navbar-expand-sm p-0 navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img class="pl-4" height=50px src="img\untitled.png" alt="">
+    <img class="pl-4" height=50px src="img\logo.png" alt="">
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler mr-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -38,15 +38,44 @@
 
 <div class="container bg-secondary">
   <div class="row p-1">
-    <h4 class="col-12 text-center">Scripts</h4>
-    <div class="col-lg p-2 text-light bg-dark">
-      <h5>Remove packages</h3>
-      <span class="text-muted pl-1 border-left border-primary">script kiddy</span>
-    </div>
+    <h4 class="col-12 text-center">Voltage info</h4>
 
-    <div class="col-lg p-2 text-light bg-dark">
-      <h5>Remove packages</h3>
-      <span class="text-muted pl-1 border-left border-primary">script kiddy</span>
+    <div class="col-lg p-0">
+      <table class="table p-0 table-dark">
+        <thead>
+          <tr>
+            <th colspan="4">Typical supply pin labeling</th>
+          </tr>
+          <tr>
+            <td scope="col"></th>
+            <td scope="col">BJT</th>
+            <td scope="col">FET</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td scope="row">Positive supply voltage</th>
+              <td>VCC/VBB</th>
+              <td>VDD</th>
+              <td>V+</th>
+              <td>V-</th>
+            </tr>
+            <tr>
+              <td scope="row">Negative supply voltage</th>
+              <td>VEE</th>
+              <td>VSS</th>
+              <td>V-</th>
+              <td>V+</th>
+            </tr>
+            <tr>
+              <td scope="row">Ground</th>
+              <td>GND</th>
+              <td>GND</th>
+              <td>0</th>
+              <td>0</th>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
     </div>
   </div>
 </div>
